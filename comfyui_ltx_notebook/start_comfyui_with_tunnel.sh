@@ -349,7 +349,7 @@ start_instinct_proxy() {
 start_radeon_tunnel() {
   export RADEON_TUNNEL_AUTH
 
-  log "[tunnel] downloading radeon-tunnel client from ${TUNNEL_SERVER}"
+  log "[tunnel] downloading radeon-tunnel client"
 
   curl \
     --noproxy '*' \
